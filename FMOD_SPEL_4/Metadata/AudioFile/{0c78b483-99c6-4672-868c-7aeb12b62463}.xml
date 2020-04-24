@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{0c78b483-99c6-4672-868c-7aeb12b62463}">
+		<property name="assetPath">
+			<value>SFX/Switches/Switch3 on.cm.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.12566666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e8ce8d1-0cfc-48fd-b3c7-b3c26e7226ef}</destination>
+		</relationship>
+	</object>
+</objects>
