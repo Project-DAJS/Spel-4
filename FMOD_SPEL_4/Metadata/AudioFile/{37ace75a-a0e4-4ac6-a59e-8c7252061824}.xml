@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{37ace75a-a0e4-4ac6-a59e-8c7252061824}">
+		<property name="assetPath">
+			<value>Env SFX/Glass_small_break/glass_small_break3.cm.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1240000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e8ce8d1-0cfc-48fd-b3c7-b3c26e7226ef}</destination>
+		</relationship>
+	</object>
+</objects>
