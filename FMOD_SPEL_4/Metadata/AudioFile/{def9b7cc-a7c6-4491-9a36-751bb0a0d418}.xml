@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{def9b7cc-a7c6-4491-9a36-751bb0a0d418}">
 		<property name="assetPath">
-			<value>Env SFX/Glass_small_break/glass_small_break5.cm.wav</value>
+			<value>SFX/Glass/s/Glass_small_break/glass_small_break5.cm.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
