@@ -5,7 +5,7 @@
 			<value>Knobs</value>
 		</property>
 		<relationship name="folder">
-			<destination>{80f076d1-f98e-4ac5-9b24-431ee5815c99}</destination>
+			<destination>{f5fd9170-3bc9-4302-b22d-c16cb092ccc3}</destination>
 		</relationship>
 	</object>
 </objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{4e85b4ca-303a-4787-831c-224c75342d91}">
+		<property name="assetPath">
+			<value>Env SFX/Glass_medium_break/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4e8ce8d1-0cfc-48fd-b3c7-b3c26e7226ef}</destination>
+		</relationship>
+	</object>
+</objects>
