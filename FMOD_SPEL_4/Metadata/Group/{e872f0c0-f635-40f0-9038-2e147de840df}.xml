@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{e872f0c0-f635-40f0-9038-2e147de840df}">
+		<property name="name">
+			<value>Metal Locker</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9a89da44-8319-4d8f-9917-8611e37b8ad7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2390f68c-c42a-4c1d-aabe-19f5042b2c52}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b04ad9a8-2e62-467b-9151-2964391d3c05}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9a89da44-8319-4d8f-9917-8611e37b8ad7}">
+		<relationship name="effects">
+			<destination>{c6b24e56-1118-4768-b53a-19a49e87f38a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2390f68c-c42a-4c1d-aabe-19f5042b2c52}" />
+	<object class="MixerBusFader" id="{c6b24e56-1118-4768-b53a-19a49e87f38a}" />
+</objects>

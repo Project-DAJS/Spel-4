@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{aeabd41b-7df6-4311-aafc-1d98ae99d534}">
+		<property name="name">
+			<value>Air Duct</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4b37896a-d6f0-43bf-8b31-0312cc6872f8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6fac1df5-0b94-4016-a1df-82c180be9023}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b04ad9a8-2e62-467b-9151-2964391d3c05}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4b37896a-d6f0-43bf-8b31-0312cc6872f8}">
+		<relationship name="effects">
+			<destination>{519463a1-f23e-4d14-82cd-e9055204b7bc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6fac1df5-0b94-4016-a1df-82c180be9023}" />
+	<object class="MixerBusFader" id="{519463a1-f23e-4d14-82cd-e9055204b7bc}" />
+</objects>

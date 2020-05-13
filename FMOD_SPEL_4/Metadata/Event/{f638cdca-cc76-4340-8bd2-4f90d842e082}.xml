@@ -58,7 +58,7 @@
 			<destination>{72027b4c-d6d1-452a-93ef-8877752e8fb2}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{7ce586d4-3907-4436-aa4f-8e70d2cdba3a}</destination>
+			<destination>{3d4a9a22-868a-44e8-bde3-918dedff6697}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{72ffa9cf-df2f-40a2-874e-4bb522a156ed}" />
@@ -203,10 +203,10 @@
 	</object>
 	<object class="LoopRegion" id="{8a18ce16-bee1-4ba8-9715-a8c33aa15cf9}">
 		<property name="position">
-			<value>0.050000000000000003</value>
+			<value>0.10000000000000001</value>
 		</property>
 		<property name="length">
-			<value>0.79999999999999993</value>
+			<value>0.74999999999999989</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5166a876-fd5f-4857-8623-51e9571326de}</destination>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{a7d62d76-ccf7-4665-8dd3-16af759361ea}">
+		<property name="name">
+			<value>Wood Door</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{87ee8c26-ff29-480c-8fbe-9d0baab67aa0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5d84851b-9a58-4cac-ba4f-389adca405d7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b04ad9a8-2e62-467b-9151-2964391d3c05}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{87ee8c26-ff29-480c-8fbe-9d0baab67aa0}">
+		<relationship name="effects">
+			<destination>{56581bed-805e-4730-96d1-5a33b2e4a3e8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5d84851b-9a58-4cac-ba4f-389adca405d7}" />
+	<object class="MixerBusFader" id="{56581bed-805e-4730-96d1-5a33b2e4a3e8}" />
+</objects>

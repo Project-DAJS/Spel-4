@@ -5,7 +5,7 @@
 			<value>Glass</value>
 		</property>
 		<relationship name="folder">
-			<destination>{80f076d1-f98e-4ac5-9b24-431ee5815c99}</destination>
+			<destination>{877c8a30-5e10-46dd-8b7a-64fa880de580}</destination>
 		</relationship>
 	</object>
 </objects>

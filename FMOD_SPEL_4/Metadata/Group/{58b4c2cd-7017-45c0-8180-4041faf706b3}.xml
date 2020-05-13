@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{58b4c2cd-7017-45c0-8180-4041faf706b3}">
+		<property name="name">
+			<value>Fuse Box</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3940636e-9cd7-4746-a16c-2bb86e91689a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{49b73a7f-12bf-4d06-aaa3-30fce26f9633}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b04ad9a8-2e62-467b-9151-2964391d3c05}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3940636e-9cd7-4746-a16c-2bb86e91689a}">
+		<relationship name="effects">
+			<destination>{442ff28f-da97-47e2-bd17-f26c298cbafc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{49b73a7f-12bf-4d06-aaa3-30fce26f9633}" />
+	<object class="MixerBusFader" id="{442ff28f-da97-47e2-bd17-f26c298cbafc}" />
+</objects>
