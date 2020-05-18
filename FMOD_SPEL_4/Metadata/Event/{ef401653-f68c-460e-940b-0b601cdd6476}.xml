@@ -150,7 +150,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f690172f-0081-4b32-810a-1dd916c20644}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-12</value>
 		</property>
 		<property name="name">
 			<value>Amb_corr</value>
