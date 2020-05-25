@@ -146,7 +146,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{21e3703b-82b7-4b61-8775-d12bdaa72dbc}">
 		<property name="volume">
-			<value>-20.5</value>
+			<value>-25</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -181,7 +181,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a1cb4c8d-59b8-4fcc-9b9b-d9775a2aba72}">
 		<property name="volume">
-			<value>-32</value>
+			<value>-40</value>
 		</property>
 		<property name="name">
 			<value>Clothing</value>
@@ -207,6 +207,7 @@
 	<object class="MixerBusEffectChain" id="{096820ed-f097-4ec8-a6b4-3b270e11d37b}">
 		<relationship name="effects">
 			<destination>{856b3abf-bd8d-48af-b229-ff9b4946970a}</destination>
+			<destination>{8a0f09a8-cc74-440d-887c-58b9ed7cccee}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4239a7f6-ebd9-4948-a713-e1dbc32120c5}" />
@@ -269,6 +270,17 @@
 	<object class="MixerBusFader" id="{c01bc1d4-b0d8-48b1-9e5a-5e4c48e05921}" />
 	<object class="SpatialiserEffect" id="{3bdc39ce-014b-4cbe-850a-bfb7f39b9668}" />
 	<object class="MixerBusFader" id="{856b3abf-bd8d-48af-b229-ff9b4946970a}" />
+	<object class="MultibandEqEffect" id="{8a0f09a8-cc74-440d-887c-58b9ed7cccee}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>1616.77271</value>
+		</property>
+		<property name="qualityA">
+			<value>1.06368971</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{17f4ad1e-1300-4eb5-a2c0-07cc562e6543}" />
 	<object class="AutomationPoint" id="{d11a202c-1d85-410c-91cb-22b4b92007e7}">
 		<property name="position">
