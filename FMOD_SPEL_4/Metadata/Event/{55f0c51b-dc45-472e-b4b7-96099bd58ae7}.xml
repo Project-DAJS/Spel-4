@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{55f0c51b-dc45-472e-b4b7-96099bd58ae7}">
 		<property name="name">
-			<value>Elevator door close interior</value>
+			<value>Elevator door close interior USE</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -89,14 +89,26 @@
 	</object>
 	<object class="MixerBusPanner" id="{4a774fe1-79a5-43eb-9a5b-69aa41f17166}" />
 	<object class="SingleSound" id="{15700ccc-c903-4269-8047-7c1200be57b5}">
-		<property name="length">
-			<value>1.9646485260770976</value>
+		<property name="start">
+			<value>0.59999999999999998</value>
 		</property>
+		<property name="length">
+			<value>0.80000000000000004</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.26000000000000001</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{80ae6373-66d8-49e1-bd4f-2c653c6a280e}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{7c3ee7d2-cac1-4807-83ef-cb3264db5d5c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{09275497-8c2e-4534-a452-a7f0b17bff8a}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Door Close</value>
 		</property>
@@ -118,6 +130,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{45d06586-27e2-4ed6-838e-55d8f4f7d165}" />
 	<object class="MixerBusFader" id="{aca3259f-8c26-452c-8ed2-558dd97b5832}" />
+	<object class="FadeCurve" id="{80ae6373-66d8-49e1-bd4f-2c653c6a280e}">
+		<relationship name="startPoint">
+			<destination>{f063a86a-ddad-4eb3-b9d7-baaa4b1db132}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{fcaab3f6-c4fc-4f86-a844-2510ed22ff61}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{927ad904-7f6d-472e-bf26-7850ef8eead4}">
 		<relationship name="effects">
 			<destination>{86517532-f7f5-4afb-bdd3-8cff39ebda63}</destination>
@@ -126,5 +146,24 @@
 	<object class="MixerBusPanner" id="{c419180b-bca3-40e9-8bab-dc9654f5e436}" />
 	<object class="MixerBusFader" id="{a82b20f3-ce29-4ef6-b131-8b75b5324eed}" />
 	<object class="SpatialiserEffect" id="{89cce40d-fbe7-4efd-ac62-cbab29c5b863}" />
+	<object class="AutomationPoint" id="{f063a86a-ddad-4eb3-b9d7-baaa4b1db132}">
+		<property name="position">
+			<value>0.98000000000000043</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{fcaab3f6-c4fc-4f86-a844-2510ed22ff61}">
+		<property name="position">
+			<value>1.3999999999999999</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{86517532-f7f5-4afb-bdd3-8cff39ebda63}" />
 </objects>
