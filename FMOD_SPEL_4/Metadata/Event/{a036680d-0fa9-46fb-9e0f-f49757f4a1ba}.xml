@@ -97,6 +97,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f7ee9184-d7da-4bdd-9dc2-b9fabc5db3e3}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>Locker Open</value>
 		</property>
@@ -121,10 +124,22 @@
 	<object class="MixerBusEffectChain" id="{3cf88648-204b-41d5-aefd-a1d8144288be}">
 		<relationship name="effects">
 			<destination>{a5b4ceed-16f8-488f-858a-cb3b952abf12}</destination>
+			<destination>{cac973bf-163a-4486-842f-797e7ed9d193}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{04516fa8-e7d3-4cd5-96a0-9de7743bb930}" />
 	<object class="MixerBusFader" id="{0f689e08-99fd-40dc-b7ad-165d972b5a32}" />
 	<object class="SpatialiserEffect" id="{2ec1bc6c-91c9-4271-baa2-9437672f10bf}" />
 	<object class="MixerBusFader" id="{a5b4ceed-16f8-488f-858a-cb3b952abf12}" />
+	<object class="MultibandEqEffect" id="{cac973bf-163a-4486-842f-797e7ed9d193}">
+		<property name="filterTypeA">
+			<value>4</value>
+		</property>
+		<property name="frequencyA">
+			<value>240.333511</value>
+		</property>
+		<property name="qualityA">
+			<value>0.929931104</value>
+		</property>
+	</object>
 </objects>
