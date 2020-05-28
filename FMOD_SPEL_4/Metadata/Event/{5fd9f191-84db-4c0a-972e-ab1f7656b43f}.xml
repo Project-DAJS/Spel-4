@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{043fa79b-dff3-4e12-9d05-d2fdaabc5426}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{71d5fe99-cddb-4004-afc0-bf0531e5c7e3}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{8dc24ffe-9338-41a2-b824-7e9a9426c899}">
 		<relationship name="masterBus">
@@ -161,6 +164,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{005915a0-0fd8-4d92-a329-ce843e81d8dc}">
 		<relationship name="effects">
+			<destination>{bff71bb6-e489-4208-a165-a460e5bcdafc}</destination>
 			<destination>{86a601ec-4b56-4b39-a6a0-55d5cbff44ba}</destination>
 		</relationship>
 	</object>
@@ -193,6 +197,14 @@
 			<destination>{142d00b8-4a7d-4273-8953-78699b7c5652}</destination>
 			<destination>{6755a873-a7e1-4e42-8749-9f40b092e243}</destination>
 		</relationship>
+	</object>
+	<object class="SFXReverbEffect" id="{bff71bb6-e489-4208-a165-a460e5bcdafc}">
+		<property name="decayTime">
+			<value>2700</value>
+		</property>
+		<property name="wetLevel">
+			<value>-13.5</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{86a601ec-4b56-4b39-a6a0-55d5cbff44ba}" />
 	<object class="AutomationPoint" id="{65770d25-8301-40b8-ac50-7e7ff82eaaa0}">
