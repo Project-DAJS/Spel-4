@@ -55,7 +55,7 @@
 			<destination>{f463296a-ab76-4cef-82d1-0a5e4e5f1d26}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{7ce586d4-3907-4436-aa4f-8e70d2cdba3a}</destination>
+			<destination>{d618578b-465e-4569-ad88-bf4889981d10}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2196097f-61f3-41d0-9fe3-34d95a5514bc}" />
@@ -92,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{77174f93-b5c7-469f-8739-07c4dc3290ca}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3a9c0a1a-1444-4745-b260-2127f2491e7f}</destination>
 		</relationship>
@@ -184,7 +187,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c2988188-8493-492d-a26f-4a4fb3b2a49c}">
 		<property name="volume">
-			<value>-30</value>
+			<value>-39</value>
 		</property>
 		<property name="name">
 			<value>Clothing</value>

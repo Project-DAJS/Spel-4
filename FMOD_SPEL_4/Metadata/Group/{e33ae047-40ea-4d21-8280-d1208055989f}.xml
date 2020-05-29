@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{e33ae047-40ea-4d21-8280-d1208055989f}">
+		<property name="name">
+			<value>Notebook</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{228f63da-1b79-45cd-afc8-a2f109d255ba}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a70bf98d-0743-460b-a6c5-7c210b3559b2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b04ad9a8-2e62-467b-9151-2964391d3c05}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{228f63da-1b79-45cd-afc8-a2f109d255ba}">
+		<relationship name="effects">
+			<destination>{cc4ce26f-ccf7-4808-8faa-1e5f2d4c4ac0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a70bf98d-0743-460b-a6c5-7c210b3559b2}" />
+	<object class="MixerBusFader" id="{cc4ce26f-ccf7-4808-8faa-1e5f2d4c4ac0}" />
+</objects>

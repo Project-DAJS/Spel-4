@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{e052f0f8-744c-4730-b564-bb38c0b35a62}">
+		<property name="name">
+			<value>Chaos_level</value>
+		</property>
+		<relationship name="folder">
+			<destination>{811ec119-8ac8-4d17-8f51-15acdf292069}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{89367d68-4a7a-44ed-a6e4-0b437589dde0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{89367d68-4a7a-44ed-a6e4-0b437589dde0}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>10</value>
+		</property>
+	</object>
+</objects>

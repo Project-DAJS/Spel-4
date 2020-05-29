@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{c83919de-aba2-4d19-8754-d1780f58d70d}">
+		<property name="name">
+			<value>ALPF</value>
+		</property>
+		<relationship name="folder">
+			<destination>{811ec119-8ac8-4d17-8f51-15acdf292069}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{db2280b0-3395-42ac-a92f-8ad15b0a29b5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{db2280b0-3395-42ac-a92f-8ad15b0a29b5}">
+		<property name="maximum">
+			<value>20000</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
