@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{b2e72788-0f7d-44b1-8603-9ae2285eba99}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../LTU-Gestaltningsprojekt-Team4/Content/FMOD</value>
+			<value>C:/Users/Emil Wallin/Desktop/UE4 - Team 4/Content/FMOD</value>
 		</property>
 		<property name="builtBanksMirrorBrowserFolderHierarchy">
 			<value>true</value>

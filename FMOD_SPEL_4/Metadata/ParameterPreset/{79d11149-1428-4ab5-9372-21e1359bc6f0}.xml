@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{79d11149-1428-4ab5-9372-21e1359bc6f0}">
+		<property name="name">
+			<value>RadioVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{811ec119-8ac8-4d17-8f51-15acdf292069}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{934603a8-870b-484d-8379-2eeeb7ee8856}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{934603a8-870b-484d-8379-2eeeb7ee8856}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

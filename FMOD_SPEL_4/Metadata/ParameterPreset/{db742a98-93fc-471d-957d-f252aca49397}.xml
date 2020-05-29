@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{db742a98-93fc-471d-957d-f252aca49397}">
+		<property name="name">
+			<value>Chaos</value>
+		</property>
+		<relationship name="folder">
+			<destination>{811ec119-8ac8-4d17-8f51-15acdf292069}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3ed493cf-de5d-48e0-bbd5-52d75795ee65}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3ed493cf-de5d-48e0-bbd5-52d75795ee65}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.7300000786781311</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
